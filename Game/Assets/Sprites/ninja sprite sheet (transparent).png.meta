@@ -1,0 +1,244 @@
+fileFormatVersion: 2
+guid: 6e3cb4df0beeef040ae438fb078e17d5
+timeCreated: 1487959313
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ninja sprite sheet (transparent)_0
+    21300002: ninja sprite sheet (transparent)_1
+    21300004: ninja sprite sheet (transparent)_2
+    21300006: ninja sprite sheet (transparent)_3
+    21300008: ninja sprite sheet (transparent)_4
+    21300010: ninja sprite sheet (transparent)_5
+    21300012: ninja sprite sheet (transparent)_6
+    21300014: ninja sprite sheet (transparent)_7
+    21300016: ninja sprite sheet (transparent)_8
+    21300018: ninja sprite sheet (transparent)_9
+    21300020: ninja sprite sheet (transparent)_10
+    21300022: ninja sprite sheet (transparent)_11
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 101
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 101
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_2
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 101
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_3
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 101
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_4
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 101
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 101
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_7
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 0
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_8
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 0
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_9
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 0
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_10
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 0
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: ninja sprite sheet (transparent)_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 0
+        width: 61.5
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
