@@ -4,10 +4,8 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour {
 
-    public void loadLevel(string level)
+	public void loadLevel(string level)
     {
-
-        //Debug.Log("Attempting to load " + level);
 
         Application.LoadLevel(level);
 

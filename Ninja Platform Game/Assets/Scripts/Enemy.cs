@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
 
-	public bool OnHead;
-	public float hitDistance;
+	public bool targetCollision;
 	public LayerMask layer;
 
 	// Use this for initialization
@@ -15,18 +14,18 @@ public class Enemy : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-		if (OnHead)
-			Destroy (gameObject);
-
+		
+		if (targetCollision) {
+			Application.LoadLevel ("Lose");
+		}
 	}
 
 	void OnCollisionEnter2D(Collision2D collision){
 
-		if (Physics2D.Raycast (transform.position, transform.up, hitDistance, layer))
-			OnHead = true;
+		if (Physics2D.Raycast (transform.position, transform.right, .4f , layer) || Physics2D.Raycast (transform.position, -transform.right, .4f , layer) || Physics2D.Raycast (transform.position, transform.up, .4f , layer))
+			targetCollision = true;
 		else
-			OnHead = false;
+			targetCollision = false;
 
 	}
 }

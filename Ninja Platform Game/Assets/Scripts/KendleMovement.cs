@@ -51,7 +51,7 @@ public class KendleMovement : MonoBehaviour {
 			Kendle.gravityScale = 0;
 			if (Input.GetKey ("space")) {
 
-				Kendle.velocity =  (Vector2.up * 5);
+				Kendle.velocity =  (Vector2.up * 8);
 				Kendle.gravityScale = 1;
 				Kendle.constraints = RigidbodyConstraints2D.FreezeRotation;
 			}
@@ -72,7 +72,7 @@ public class KendleMovement : MonoBehaviour {
 
 	public void checkWalls(){
 
-		if (Physics2D.Raycast (transform.position, transform.right, .4f , layer) || Physics2D.Raycast (transform.position, -transform.right, .4f , layer))
+		if (Physics2D.Raycast (transform.position, transform.right, .35f , layer) || Physics2D.Raycast (transform.position, -transform.right, .35f , layer))
 			isOnWall = true;
 		else
 			isOnWall = false;
