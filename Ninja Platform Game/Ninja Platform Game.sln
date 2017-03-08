@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{AA7FFCDE-9C52-7AE2-7E40-1B6FC18D19BC}") = "Ninja Platform Game", "Assembly-CSharp.csproj", "{746C64F0-F5FB-E7F9-2CE9-3C27B17FEE2B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{746C64F0-F5FB-E7F9-2CE9-3C27B17FEE2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746C64F0-F5FB-E7F9-2CE9-3C27B17FEE2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746C64F0-F5FB-E7F9-2CE9-3C27B17FEE2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746C64F0-F5FB-E7F9-2CE9-3C27B17FEE2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
