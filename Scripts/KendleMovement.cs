@@ -23,7 +23,7 @@ public class KendleMovement : MonoBehaviour {
 
 		Kendle.freezeRotation = true;
 		checkWalls ();
-		if (!isOnWall && isGrounded|| !isGrounded && !isOnWall || isOnWall && isGrounded) {
+		if (!isOnWall && isGrounded|| !isGrounded && !isOnWall || isOnWall && isGrounded || isOnWall) {
 
 			if (Input.GetKey ("d"))
 				transform.Translate (Vector2.right * MoveSpeed * Time.deltaTime);	
