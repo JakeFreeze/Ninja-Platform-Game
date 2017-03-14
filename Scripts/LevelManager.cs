@@ -22,9 +22,7 @@ public class LevelManager : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D other){
 
-		loadLevel (manualLevel);
-
-		Debug.Log ("xd");
+		
 
 	}
 
