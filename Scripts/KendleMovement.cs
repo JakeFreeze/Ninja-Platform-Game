@@ -59,7 +59,6 @@ public class KendleMovement : MonoBehaviour {
 
 			Kendle.gravityScale = 1;
 		}
-		checkWalls ();	
 	}
 
 	public void checkGround(){

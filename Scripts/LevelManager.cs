@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour {
 
+	public string manualLevel;
+
 	public void loadLevel(string level)
     {
 
@@ -17,5 +19,11 @@ public class LevelManager : MonoBehaviour {
         Application.Quit();
 
     }
+
+	void OnTriggerEnter2D(Collider2D other){
+
+		
+
+	}
 
 }
