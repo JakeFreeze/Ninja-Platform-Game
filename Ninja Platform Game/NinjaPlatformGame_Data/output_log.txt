@@ -1,0 +1,60 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   21.21.13.7878
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.039 seconds
+Platform assembly: C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Max\Desktop\C++_C#\C# Projects\Ninja-Platform-Game\Ninja Platform Game\NinjaPlatformGame_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 144Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.088266 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 5.182711 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 372.
+Total: 0.403333 ms (FindLiveObjects: 0.047422 ms CreateObjectMapping: 0.041555 ms MarkObjects: 0.299200 ms  DeleteObjects: 0.005866 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.331955 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 252.
+Total: 0.399911 ms (FindLiveObjects: 0.040088 ms CreateObjectMapping: 0.036177 ms MarkObjects: 0.299688 ms  DeleteObjects: 0.016133 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.855066 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 372.
+Total: 0.359333 ms (FindLiveObjects: 0.048400 ms CreateObjectMapping: 0.042044 ms MarkObjects: 0.254711 ms  DeleteObjects: 0.004888 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.446844 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 252.
+Total: 0.175022 ms (FindLiveObjects: 0.015644 ms CreateObjectMapping: 0.015644 ms MarkObjects: 0.130044 ms  DeleteObjects: 0.008311 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.597911 ms
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 372.
+Total: 0.350533 ms (FindLiveObjects: 0.045466 ms CreateObjectMapping: 0.041555 ms MarkObjects: 0.250311 ms  DeleteObjects: 0.004888 ms)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 2308 -> priority: 1 
+  Thread -> id: 2498 -> priority: 1 

@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class LevelManager : MonoBehaviour {
 
+	public string manualLevel;
+	public GameObject target;
+	public int whatDo;
+
 	public void loadLevel(string level)
     {
 
@@ -17,5 +21,17 @@ public class LevelManager : MonoBehaviour {
         Application.Quit();
 
     }
+
+	void OnTriggerEnter2D(Collider2D other){
+		
+		target.GetComponent<TimerScript> ().EndTimer ();
+
+		if (whatDo == 1) {
+		
+			loadLevel (manualLevel);
+		
+		}
+
+	}
 
 }

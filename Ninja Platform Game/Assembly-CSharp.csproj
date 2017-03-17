@@ -51,7 +51,7 @@
      <Compile Include="Assets\Scripts\KendleMovement.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\MovingBlock.cs" />
-     <Compile Include="Assets\Scripts\Timer.cs" />
+     <Compile Include="Assets\Scripts\TimerScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
