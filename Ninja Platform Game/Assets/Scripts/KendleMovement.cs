@@ -10,12 +10,14 @@ public class KendleMovement : MonoBehaviour {
 	public bool isGrounded;
 	public bool isOnWall;
 	public LayerMask layer;
+	bool spacePressed;
+	int num;
 
 	// Use this for initialization
 	void Start () {
 
 		Kendle = GetComponent<Rigidbody2D> ();
-
+		int num = 0;
 	}
 	
 	// Update is called once per frame
@@ -23,7 +25,7 @@ public class KendleMovement : MonoBehaviour {
 
 		Kendle.freezeRotation = true;
 		checkWalls ();
-		if (!isOnWall && isGrounded|| !isGrounded && !isOnWall || isOnWall && isGrounded) {
+		if (!isOnWall && isGrounded|| !isGrounded && !isOnWall || isOnWall && isGrounded || isOnWall) {
 
 			if (Input.GetKey ("d"))
 				transform.Translate (Vector2.right * MoveSpeed * Time.deltaTime);	
@@ -41,6 +43,23 @@ public class KendleMovement : MonoBehaviour {
 			Kendle.constraints = RigidbodyConstraints2D.FreezeRotation;
 		
 		}
+		if (spacePressed == true) {
+			num++;
+			if (Input.GetKey ("space")) {
+			
+				Kendle.constraints = RigidbodyConstraints2D.FreezeRotation;
+			
+			}
+
+			if (!Input.GetKey ("space")) {
+				num++;
+				if (num >= 40) {
+					spacePressed = false;
+					num = 0;
+				}
+			}
+		}
+
 		if(Input.GetKey ("s"))
 			Kendle.constraints = RigidbodyConstraints2D.FreezeRotation;
 
@@ -50,16 +69,17 @@ public class KendleMovement : MonoBehaviour {
 		if (isGrounded || !isGrounded && isOnWall) {
 			Kendle.gravityScale = 0;
 			if (Input.GetKey ("space")) {
-
-				Kendle.velocity =  (Vector2.up * 8);
-				Kendle.gravityScale = 1;
-				Kendle.constraints = RigidbodyConstraints2D.FreezeRotation;
+				if (spacePressed == false) {
+					Kendle.velocity = (Vector2.up * 8);
+					Kendle.gravityScale = 1;
+					Kendle.constraints = RigidbodyConstraints2D.FreezeRotation;
+					spacePressed = true;
+				}
 			}
 		} else {
 
 			Kendle.gravityScale = 1;
 		}
-		checkWalls ();	
 	}
 
 	public void checkGround(){
